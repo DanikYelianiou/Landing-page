@@ -1,0 +1,1 @@
+export { default as AboutPage } from './About/About.jsx';
