@@ -1,14 +1,14 @@
 import style from "./Button.module.scss";
 
 
-const CustomButton = ({text, icon}) => {
+const CustomButton = ({text, icon, unique}) => {
 
     return (
         <button
-            className={style.CustomBtn}
+            className={unique ? style.CustomBtnWhite : style.CustomBtn}
         >
-            <div className={style.CustomBtn__data}>
-                <img src={icon} alt="icon" />
+            <div className={unique ? style.CustomBtnWhite__data : style.CustomBtn__data}>
+                {icon && <img src={icon} alt="" />}
                 {text}
             </div>
         </button>

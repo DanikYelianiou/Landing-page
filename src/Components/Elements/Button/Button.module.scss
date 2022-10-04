@@ -1,5 +1,6 @@
 $primary: #27ACA1;
 $secondary: #DCF7F4;
+$white: #FFFFFF;
 
 .CustomBtn {
     padding: 9px 24px 9px 19px;
@@ -16,4 +17,16 @@ $secondary: #DCF7F4;
         display: flex;
         gap: 12px;
     }
+}
+
+.CustomBtnWhite {
+    padding: 16px 32px;
+    border-radius: 8px;
+    background-color: $white;
+    color: $primary;
+    border: none;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    cursor: pointer;
 }
