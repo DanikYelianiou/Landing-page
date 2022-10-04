@@ -1,32 +1,36 @@
 import style from "./Activities.module.scss";
 import InfoContainer from "../Elements/InfoContainer/InfoContainer";
+import Wrapper from "../Wrapper/Wrapper";
 
 
 const Activities = () => {
 
     const activities = [
         "Дистанционное обучение",
-        "Аттестация",
-        "Вебинары",
         "Юридическое сопровождение",
+        "Аттестация",
         "Разработка документации",
+        "Вебинары",
         "Лицензирование",
     ]
 
     return (
-        <div className={style.Activities}>
-            <h2 className={style.title}>Направления деятельности</h2>
+        <Wrapper
+            title={"Направления деятельности"}
+        >
             <div className={style.activities_wrap}>
                 {
-                    activities.map((value) => (
-                        <InfoContainer 
-                            text={value}
-                            btnText={"Подробнее"}
-                        />
+                    activities.map((value, id) => (
+                        <div key={id}>
+                            <InfoContainer 
+                                text={value}
+                                btnText={"Подробнее"}
+                            />
+                        </div>
                     ))
                 }
             </div>
-        </div>
+        </Wrapper>
     )
 }
 

@@ -1,16 +1,5 @@
-.Activities {
-    margin-bottom: 80px;
-
-    .title {
-        font-size: 36px;
-        line-height: 46px;
-        font-weight: 500;
-        margin-bottom: 32px;
-    }
-
-    .activities_wrap {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 16px 32px;
-    }
+.activities_wrap {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px 32px;
 }
