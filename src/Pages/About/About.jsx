@@ -1,10 +1,17 @@
-import { Navbar } from "../../Components"
+import { Navbar } from "../../Components";
+import { Footer } from "../../Components";
+
+import style from "./About.module.scss";
+
 
 const AboutPage = () => {
 
     return (
         <div>
-            <Navbar />
+            <div className={style.Container}>
+                <Navbar />
+            </div>
+            <Footer />
         </div>
     )
 }

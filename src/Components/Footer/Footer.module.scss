@@ -1,0 +1,121 @@
+$Background: #F8FBFE;
+$Olive: #0C0C3D;
+$Primary: #27ACA1;
+$Secondary: #DCF6F4;
+
+.footer {
+    background-color: $Background;
+    height: 352px;
+    width: 100%;
+
+    &__wrapper {
+        width: 100%;
+        max-width: 1600px;
+        margin: 0 auto;
+        padding: 80px 0;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    &__contacts {
+        width: 376px;
+
+        h3 {
+            font-size: 24px;
+            font-weight: 500;
+            line-height: 32px;
+        }
+
+        .title {
+            color: $Olive;
+            margin-bottom: 26px;
+        }
+
+        .phone {
+
+            h3 {
+                color: $Primary;
+
+                &::before {
+                    content: url(../../Assets/PrimaryPhone.svg);
+                    margin-right: 11px;
+                }
+            }
+
+            p {
+                margin-top: 8px;
+            }
+        }
+
+        .mail {
+            color: $Primary;
+            margin-top: 26px;
+
+            &::before {
+                content: url(../../Assets/PrimaryMail.svg);
+                margin-right: 11px;
+            }
+        }
+    }
+
+    &__social {
+        display: flex;
+        gap: 12px;
+        margin-left: 32px;
+        margin-right: 132px;
+
+        .social_bg {
+            width: 60px;
+            height: 60px;
+            background-color: $Secondary;
+            border-radius: 8px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+
+            img {
+                width: 48px;
+                height: 48px;
+            }
+        }
+    }
+
+    &__address {
+        width: 376px;
+        margin-right: 32px;
+
+        .title {
+            font-size: 24px;
+            font-weight: 500;
+            line-height: 32px;
+            color: $Olive;
+            margin-bottom: 26px;
+        }
+
+        p {
+            margin-bottom: 26px;
+        }
+    }
+
+    &__links {
+        display: flex;
+        flex-direction: column;
+
+        a {
+            font-weight: 600;
+            margin-bottom: 24px;
+            color: $Primary;
+
+            &:last-child {
+                margin-bottom: 0;
+            }
+
+            &::after {
+                content: url(../../Assets//PrimaryArrow.svg);
+                margin-left: 4px;
+            }
+        }
+    }
+}

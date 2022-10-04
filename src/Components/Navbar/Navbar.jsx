@@ -7,8 +7,8 @@ import PrimaryPhone from "../../Assets/PrimaryPhone.svg";
 import Person from "../../Assets/Person.svg";
 
 import style from "./Navbar.module.scss";
-import Input from "../Input/Input";
-import Button from "../Button/Button";
+import Input from "../Elements/Input/Input";
+import Button from "../Elements/Button/Button";
 
 
 const Navbar = () => {
