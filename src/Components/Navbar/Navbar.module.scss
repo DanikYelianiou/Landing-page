@@ -1,0 +1,56 @@
+$Primary-dark: #04665E;
+
+.Navbar {
+
+    &__wrapper {
+        height: 144px;
+        display: flex;
+        flex-direction: column;
+        
+        .head {
+            padding: 25px 0 22px;
+
+            &__container {
+                height: 46px;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+
+                .btn_container {
+                    display: flex;
+                    flex-direction: row;
+                    gap: 12px;
+                }
+            }
+        }
+
+        .info {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+
+            .links {
+                padding: 0 0 24px;
+                display: flex;
+                flex-direction: row;
+                gap: 32px;
+
+                .active {
+                    color: $Primary-dark;
+                }
+            }
+
+            .connection {
+                display: flex;
+                flex-direction: row;
+                gap: 35px;
+                align-items: flex-start;
+
+                &__info {
+                    display: flex;
+                    gap: 10px;
+                }
+            }
+        }
+    }
+}

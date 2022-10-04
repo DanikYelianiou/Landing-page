@@ -1,0 +1,18 @@
+$primary: #27ACA1;
+$secondary: #DCF7F4;
+
+.CustomBtn {
+    padding: 9px 24px 9px 19px;
+    border-radius: 8px;
+    background-color: $secondary;
+    color: $primary;
+    border: none;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+
+    &__data {
+        display: flex;
+        gap: 12px;
+    }
+}

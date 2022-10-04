@@ -1,9 +1,10 @@
+import { Navbar } from "../../Components"
 
 const AboutPage = () => {
 
     return (
         <div>
-            test
+            <Navbar />
         </div>
     )
 }
