@@ -8,7 +8,7 @@ const CustomButton = ({text, icon}) => {
             className={style.CustomBtn}
         >
             <div className={style.CustomBtn__data}>
-                <img src={icon} />
+                <img src={icon} alt="icon" />
                 {text}
             </div>
         </button>

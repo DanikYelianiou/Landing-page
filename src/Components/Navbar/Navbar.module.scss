@@ -28,12 +28,13 @@ $Primary-dark: #04665E;
             display: flex;
             flex-direction: row;
             justify-content: space-between;
+            padding: 0 0 24px;
 
             .links {
-                padding: 0 0 24px;
                 display: flex;
                 flex-direction: row;
                 gap: 32px;
+                cursor: pointer;
 
                 .active {
                     color: $Primary-dark;

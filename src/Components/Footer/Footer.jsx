@@ -19,10 +19,10 @@ const Footer = () => {
                     <h3 className={style.mail}>info@grandschool.net</h3>
                 </div>
                 <div className={style.footer__social}>
-                    <div className={style.social_bg}><img src={TG} /></div>
-                    <div className={style.social_bg}><img src={VK} /></div>
-                    <div className={style.social_bg}><img src={Zen} /></div>
-                    <div className={style.social_bg}><img src={YT} /></div>
+                    <div className={style.social_bg}><img src={TG} alt="TG" /></div>
+                    <div className={style.social_bg}><img src={VK} alt="VK" /></div>
+                    <div className={style.social_bg}><img src={Zen} alt="Zen" /></div>
+                    <div className={style.social_bg}><img src={YT} alt="YT" /></div>
                 </div>
                 <div className={style.footer__address}>
                     <h3 className={style.title}>Центральный офис</h3>
@@ -32,10 +32,10 @@ const Footer = () => {
                     />
                 </div>
                 <div className={style.footer__links}>
-                    <a>Реквизиты</a>
-                    <a>Договор оферта</a>
-                    <a>Пользовательское соглашение</a>
-                    <a>Политика конфиденциальности</a>
+                    <a href="/">Реквизиты</a>
+                    <a href="/">Договор оферта</a>
+                    <a href="/">Пользовательское соглашение</a>
+                    <a href="/">Политика конфиденциальности</a>
                 </div>
             </div>
         </footer>

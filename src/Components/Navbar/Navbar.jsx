@@ -39,14 +39,14 @@ const Navbar = () => {
             </div>
             <div className={style.info}>
                 <div className={style.links}>
-                    <a className={style.active}>О нас</a>
-                    <a>Юридические услуги</a>
-                    <a>Вебинары</a>
-                    <a>Курсы</a>
-                    <a>Статьи</a>
-                    <a>Партнёрство</a>
-                    <a>Новости</a>
-                    <a>СДО</a>
+                    <a className={style.active} href="/">О нас</a>
+                    <a href="/">Юридические услуги</a>
+                    <a href="/">Вебинары</a>
+                    <a href="/">Курсы</a>
+                    <a href="/">Статьи</a>
+                    <a href="/">Партнёрство</a>
+                    <a href="/">Новости</a>
+                    <a href="/">СДО</a>
                 </div>
                 <div className={style.connection}>
                     <div className={style.connection__info}>

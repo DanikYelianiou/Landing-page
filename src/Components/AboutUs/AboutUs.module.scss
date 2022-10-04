@@ -1,0 +1,53 @@
+.AboutUs {
+    margin: 64px 0 80px;
+
+    .title {
+        font-size: 64px;
+        line-height: 76px;
+        font-weight: 800px;
+        margin-bottom: 32px;
+    }
+
+    .info {
+        display: flex;
+
+        &__text {
+            width: 100%;
+            max-width: 784px;
+            margin-right: 64px;
+
+            p {
+                font-size: 22px;
+                line-height: 36px;
+                font-weight: 400;
+            }
+        }
+
+        &__license {
+            display: flex;
+            gap: 32px;
+
+            .license__wrapper {
+                width: 360px;
+                height: 513px;
+                border-radius: 16px;
+                background-color: #F6F8FA;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                gap: 20px;
+
+                p {
+                    font-weight: 600;
+                    color: #27ACA1;
+
+                    &::after {
+                        content: url(../../Assets/PrimaryArrow.svg);
+                        margin-left: 7px;
+                    }
+                }
+            }
+        }
+    }
+}
