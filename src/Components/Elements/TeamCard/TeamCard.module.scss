@@ -1,0 +1,59 @@
+.card {
+    width: 376px;
+    height: 460px;
+
+    .photo {
+        position: absolute;
+        margin-left: 32px;
+    }
+
+    &__bg {
+        height: 380px;
+        width: 100%;
+        border-radius: 16px;
+        background-color: #F6F8FA;
+        margin-top: 80px;
+        padding: 0 32px;
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            padding-top: 96px;
+            gap: 48px;
+
+            .main__info {
+                display: flex;
+                flex-direction: column;
+                gap: 16px;
+
+                h3 {
+                    font-size: 24px;
+                    line-height: 32px;
+                    font-weight: 500;
+                }
+
+                p {
+                    height: 56px;
+                    color: #5D647D;
+                }
+            }
+        }
+
+        .connection {
+
+            &__mail {
+                display: flex;
+                gap: 8px;
+            }
+
+            &__phone {
+                display: flex;
+                gap: 12px;
+
+                p span {
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+}

@@ -1,4 +1,4 @@
-import { Navbar, Footer, AboutUs, Activities, Cooperate, Resources } from "../../Components";
+import { Navbar, Footer, AboutUs, Activities, Cooperate, Resources, Team } from "../../Components";
 
 import style from "./About.module.scss";
 
@@ -13,6 +13,7 @@ const AboutPage = () => {
                 <Activities />
                 <Cooperate />
                 <Resources />
+                <Team />
             </div>
             <Footer />
         </div>
