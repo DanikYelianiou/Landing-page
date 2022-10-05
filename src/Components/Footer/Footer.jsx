@@ -1,8 +1,8 @@
 import style from "./Footer.module.scss";
-import TG from "../../Assets/TG.svg";
-import VK from "../../Assets/VK.svg";
-import YT from "../../Assets/YT.svg";
-import Zen from "../../Assets/Zen.svg";
+import TG from "../../Assets/Icons/48px/TG.svg";
+import VK from "../../Assets/Icons/48px/VK.svg";
+import YT from "../../Assets/Icons/48px/YT.svg";
+import Zen from "../../Assets/Icons/48px/Zen.svg";
 import Button from "../Elements/Button/Button";
 
 const Footer = () => {

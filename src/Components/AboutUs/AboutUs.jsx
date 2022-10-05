@@ -1,6 +1,6 @@
 import style from "./AboutUs.module.scss";
-import Agreement from "../../Assets/Agreement.png";
-import License from "../../Assets/License.png";
+import Agreement from "../../Assets/Icons/Pictures/Agreement.png";
+import License from "../../Assets/Icons/Pictures/License.png";
 
 
 const AboutUs = () => {

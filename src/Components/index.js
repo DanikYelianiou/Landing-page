@@ -7,3 +7,4 @@ export { default as Activities } from './Activities/Activities.jsx';
 export { default as InfoContainer } from './Elements/InfoContainer/InfoContainer.jsx';
 export { default as Cooperate } from './Cooperate/Cooperate.jsx';
 export { default as Wrapper } from './Wrapper/Wrapper.jsx';
+export { default as Resources } from './Resources/Resources.jsx';

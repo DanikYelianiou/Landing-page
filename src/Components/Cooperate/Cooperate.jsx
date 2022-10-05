@@ -1,9 +1,9 @@
 import style from "./Cooperate.module.scss";
 import Wrapper from "../Wrapper/Wrapper";
-import Arrow from "../../Assets/PrimaryArrow.svg";
-import Form from "../../Assets/Form.png";
-import Computer from "../../Assets/Computer.png";
-import Office from "../../Assets/Office.png";
+import Arrow from "../../Assets/Icons/14px/PrimaryArrow.svg";
+import Form from "../../Assets/Icons/Pictures/Form.png";
+import Computer from "../../Assets/Icons/Pictures/Computer.png";
+import Office from "../../Assets/Icons/Pictures/Office.png";
 
 
 const Cooperate = () => {

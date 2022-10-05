@@ -1,10 +1,10 @@
 import { useState } from "react";
 
-import Logo from "../../Assets/Logo.svg";
-import Mail from "../../Assets/Mail.svg";
-import Phone from "../../Assets/Phone.svg";
-import PrimaryPhone from "../../Assets/PrimaryPhone.svg";
-import Person from "../../Assets/Person.svg";
+import Logo from "../../Assets/Icons/Logo.svg";
+import Mail from "../../Assets/Icons/20px/Mail.svg";
+import Phone from "../../Assets/Icons/14px/Phone.svg";
+import PrimaryPhone from "../../Assets/Icons/14px/PrimaryPhone.svg";
+import Person from "../../Assets/Icons/20px/Person.svg";
 
 import style from "./Navbar.module.scss";
 import Input from "../Elements/Input/Input";
