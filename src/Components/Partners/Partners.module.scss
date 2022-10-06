@@ -1,0 +1,56 @@
+.scroll__parent {
+    position: relative;
+    width: 100%;
+    height: 100px;
+    overflow-x: hidden;
+}
+  
+.first__scroll__element {
+    width: inherit;
+    height: inherit;
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    animation: primary 30s linear infinite;
+    display: flex;
+    flex-direction: row;
+    gap: 64px;
+
+    img {
+        height: inherit;
+    }
+}
+
+.second__scroll__element {
+    width: inherit;
+    height: inherit;
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    animation: secondary 30s linear infinite;
+    display: flex;
+    flex-direction: row;
+    gap: 64px;
+
+    img {
+        height: inherit;
+    }
+}
+  
+  @keyframes primary {
+    from {
+      left: 0%;
+    }
+    to {
+      left: -6350px;
+    }
+  }
+  
+  @keyframes secondary {
+    from {
+      left: 6350px;
+    }
+    to {
+      left: 0%;
+    }
+  }

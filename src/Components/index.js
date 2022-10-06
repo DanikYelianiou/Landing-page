@@ -13,3 +13,4 @@ export { default as Link } from './Elements/Link/Link.jsx';
 export { default as Organizations } from './Organizations/Organizations.jsx';
 export { default as Support } from './Support/Support.jsx';
 export { default as MailingList } from './MailingList/MailingList.jsx';
+export { default as Partners } from './Partners/Partners.jsx';

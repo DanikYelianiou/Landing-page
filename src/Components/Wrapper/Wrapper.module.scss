@@ -8,4 +8,16 @@
         margin-bottom: 32px;
         width: 784px;
     }
+
+    &__noContainer {
+        margin-bottom: 80px;
+    }
+
+    &__head {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        max-width: 1600px;
+        margin: 0 auto;
+    }
 }
