@@ -1,5 +1,14 @@
-import { Navbar, Footer, AboutUs, Activities, Cooperate, Resources, Team, Organizations } from "../../Components";
-
+import { 
+    Navbar, 
+    Footer, 
+    AboutUs, 
+    Activities, 
+    Cooperate, 
+    Resources, 
+    Team, 
+    Organizations, 
+    Support 
+} from "../../Components";
 import style from "./About.module.scss";
 
 
@@ -16,7 +25,10 @@ const AboutPage = () => {
                 <Team />
             </div>
             <div className={style.Container}>
-                <Organizations />
+                <div className={style.row}>
+                    <Organizations />
+                    <Support />
+                </div>
             </div>
             <Footer />
         </div>
