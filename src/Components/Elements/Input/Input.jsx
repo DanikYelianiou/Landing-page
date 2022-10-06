@@ -2,16 +2,27 @@ import { Input } from 'antd';
 import style from './Input.module.scss';
 
 
-const CustomInput = ({placeholder, value, onChange}) => {
+const CustomInput = ({placeholder, value, onChange, mailing}) => {
 
     return (
         <div>
-            <Input 
-                placeholder={placeholder}
-                value={value}
-                onChange={(e) => onChange(e.target.value)}
-                className={style.search}
-            />
+            {
+                mailing ? (
+                    <Input 
+                        placeholder={placeholder}
+                        value={value}
+                        onChange={(e) => onChange(e.target.value)}
+                        className={style.mailing}
+                    />
+                ) : (
+                    <Input 
+                        placeholder={placeholder}
+                        value={value}
+                        onChange={(e) => onChange(e.target.value)}
+                        className={style.search}
+                    />
+                )
+            }
         </div>
     )
 }

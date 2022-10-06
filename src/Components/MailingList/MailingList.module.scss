@@ -1,0 +1,32 @@
+.mailing {
+
+    &__container {
+        width: 100%;
+        background-color: #F6F8FA;
+        border-radius: 32px;
+        height: 334px;
+        display: flex;
+        gap: 32px;
+    }
+
+    &__form {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        width: 747px;
+        padding: 32px;
+        border-right: 1px solid #CFD7DC;
+
+        .inputes {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+    }
+
+    &__title {
+        font-size: 24px;
+        line-height: 32px;
+        font-weight: 500;
+    }
+}

@@ -7,7 +7,8 @@ import {
     Resources, 
     Team, 
     Organizations, 
-    Support 
+    Support,
+    MailingList
 } from "../../Components";
 import style from "./About.module.scss";
 
@@ -29,6 +30,7 @@ const AboutPage = () => {
                     <Organizations />
                     <Support />
                 </div>
+                <MailingList />
             </div>
             <Footer />
         </div>

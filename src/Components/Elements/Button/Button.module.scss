@@ -30,3 +30,16 @@ $white: #FFFFFF;
     line-height: 28px;
     cursor: pointer;
 }
+
+.mailingBtn {
+    height: 60px;
+    width: 683px;
+    border-radius: 8px;
+    padding: 16px 32px;
+    border: none;
+    background-color: $white;
+    color: $primary;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 600;
+}

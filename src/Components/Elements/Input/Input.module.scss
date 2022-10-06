@@ -1,11 +1,26 @@
+$border: #CFD7DC;
+$gray: #5D647D;
+
 .search {
     height: 46px;
     width: 892px;
     padding: 9px 9px 9px 44px;
     gap: 8px;
     border-radius: 8px;
-    border: 1px solid #CFD7DC;
+    border: 1px solid $border;
     background: url(../../../Assets/Icons/24px/Search.svg) no-repeat 9px center;
     font-size: 18px;
     line-height: 28px;
+}
+
+.mailing {
+    height: 60px;
+    width: 683px;
+    border-radius: 8px;
+    background-color: inherit;
+    border: 1px solid $border;
+    padding: 16px;
+    font-size: 18px;
+    line-height: 28px;
+    color: $gray;
 }
