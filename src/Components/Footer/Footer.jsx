@@ -4,6 +4,8 @@ import VK from "../../Assets/Icons/48px/VK.svg";
 import YT from "../../Assets/Icons/48px/YT.svg";
 import Zen from "../../Assets/Icons/48px/Zen.svg";
 import Button from "../Elements/Button/Button";
+import Link from "../Elements/Link/Link";
+
 
 const Footer = () => {
 
@@ -32,10 +34,10 @@ const Footer = () => {
                     />
                 </div>
                 <div className={style.footer__links}>
-                    <a href="/">Реквизиты</a>
-                    <a href="/">Договор оферта</a>
-                    <a href="/">Пользовательское соглашение</a>
-                    <a href="/">Политика конфиденциальности</a>
+                    <Link text={"Реквизиты"}/>
+                    <Link text={"Договор оферта"}/>
+                    <Link text={"Пользовательское соглашение"}/>
+                    <Link text={"Политика конфиденциальности"}/>
                 </div>
             </div>
         </footer>

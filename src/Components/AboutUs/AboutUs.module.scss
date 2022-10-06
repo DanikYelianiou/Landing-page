@@ -37,16 +37,6 @@
                 align-items: center;
                 justify-content: center;
                 gap: 20px;
-
-                p {
-                    font-weight: 600;
-                    color: #27ACA1;
-
-                    &::after {
-                        content: url(../../Assets/Icons/14px/PrimaryArrow.svg);
-                        margin-left: 7px;
-                    }
-                }
             }
         }
     }

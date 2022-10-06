@@ -102,20 +102,6 @@ $Secondary: #DCF6F4;
     &__links {
         display: flex;
         flex-direction: column;
-
-        a {
-            font-weight: 600;
-            margin-bottom: 24px;
-            color: $Primary;
-
-            &:last-child {
-                margin-bottom: 0;
-            }
-
-            &::after {
-                content: url(../../Assets/Icons/14px/PrimaryArrow.svg);
-                margin-left: 7px;
-            }
-        }
+        gap: 20px;
     }
 }

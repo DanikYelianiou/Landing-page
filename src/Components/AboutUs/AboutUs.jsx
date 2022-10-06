@@ -1,6 +1,7 @@
 import style from "./AboutUs.module.scss";
 import Agreement from "../../Assets/Icons/Pictures/Agreement.png";
 import License from "../../Assets/Icons/Pictures/License.png";
+import Link from "../Elements/Link/Link";
 
 
 const AboutUs = () => {
@@ -33,11 +34,11 @@ const AboutUs = () => {
                 <div className={style.info__license}>
                     <div className={style.license__wrapper}>
                         <img src={License} alt="License" />
-                        <p>Лицензия в полном размере</p>
+                        <Link text={"Лицензия в полном размере"} />
                     </div>
                     <div className={style.license__wrapper}>
                         <img src={Agreement} alt="Agreement" />
-                        <p>Соглашение с МУМЦФМ</p>
+                        <Link text={"Соглашение с МУМЦФМ"} />
                     </div>
                 </div>
             </div>

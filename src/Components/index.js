@@ -9,3 +9,5 @@ export { default as Cooperate } from './Cooperate/Cooperate.jsx';
 export { default as Wrapper } from './Wrapper/Wrapper.jsx';
 export { default as Resources } from './Resources/Resources.jsx';
 export { default as Team } from './Team/Team.jsx';
+export { default as Link } from './Elements/Link/Link.jsx';
+export { default as Organizations } from './Organizations/Organizations.jsx';
