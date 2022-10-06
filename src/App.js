@@ -1,4 +1,4 @@
-import { AboutPage } from './Pages'
+import { AboutPage } from './Pages';
 
 
 function App() {

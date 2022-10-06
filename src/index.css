@@ -1,6 +1,7 @@
 body, html {
   padding: 0;
   margin: 0;
+  font-family: "Inter";
 }
 
 *, ::after, ::before {
@@ -10,7 +11,6 @@ body, html {
 a, h1, h2, h3, h4, h5, h6, p, span {
   padding: 0;
   margin: 0;
-  font-family: 'Poppins', sans-serif;
   font-style: normal;
   text-decoration: none;
   color: #0C0C3D;

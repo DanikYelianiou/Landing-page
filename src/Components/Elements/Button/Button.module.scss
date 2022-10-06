@@ -1,6 +1,9 @@
 $primary: #27ACA1;
 $secondary: #DCF7F4;
 $white: #FFFFFF;
+$primaryDark: #04665E;
+$gray: #F6F8FA;
+$olive: #0C0C3D;
 
 .CustomBtn {
     padding: 9px 24px 9px 19px;
@@ -11,11 +14,19 @@ $white: #FFFFFF;
     font-size: 18px;
     font-weight: 600;
     line-height: 28px;
-    cursor: pointer;
 
     &__data {
         display: flex;
         gap: 12px;
+    }
+
+    &:hover {
+        cursor: pointer;
+        color: $primaryDark;
+    }
+
+    &:active {
+        background-color: $gray;
     }
 }
 
@@ -29,6 +40,15 @@ $white: #FFFFFF;
     font-weight: 600;
     line-height: 28px;
     cursor: pointer;
+
+    &:hover {
+        cursor: pointer;
+        color: $primaryDark;
+    }
+
+    &:active {
+        color: $olive;
+    }
 }
 
 .mailingBtn {
@@ -42,4 +62,13 @@ $white: #FFFFFF;
     font-size: 18px;
     line-height: 28px;
     font-weight: 600;
+
+    &:hover {
+        cursor: pointer;
+        color: $primaryDark;
+    }
+
+    &:active {
+        color: $olive;
+    }
 }
